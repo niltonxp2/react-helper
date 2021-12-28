@@ -1,0 +1,2276 @@
+{
+  "id": "72761",
+  "templateName": "generatedBySafra",
+  "allowUpdate": true,
+  "templateStatus": "EM_AUDITORIA",
+  "active": true,
+  "routeId": 23667,
+  "userId": 272,
+  "templateType": "VISITA",
+  "synced": false,
+  "created_at": "2021-12-21T12:41:54.354Z",
+  "updated_at": "2021-12-21T13:02:35.700Z",
+  "actionTemplateItems": [null, {"test": "test"}, "test"],
+  "actions": [
+    {
+      "id": "89066",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.348Z",
+      "updated_at": "2021-12-27T22:16:29.348Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "fieldRow2": "tet",
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89066",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89071",
+      "actionSubject": "Ocorrência PDR",
+      "actionTypeId": "2",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.661Z",
+      "updated_at": "2021-12-27T22:16:29.661Z",
+      "actionType": {
+        "id": "2",
+        "typeName": "Ocorrências PDR",
+        "typeTitle": "Ocorrência",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-08-27T18:32:39.666Z",
+        "updated_at": "2020-08-27T18:32:39.666Z"
+      },
+      "customFields": [
+        {
+          "id": "89071",
+          "form_id": "5",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "horariodaocorrencia_xcqhe": "2021-12-21T01:40",
+          "descricao_ufnta": "Teste"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89076",
+      "actionSubject": "Ocorrência PDR",
+      "actionTypeId": "2",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.745Z",
+      "updated_at": "2021-12-27T22:16:29.745Z",
+      "actionType": {
+        "id": "2",
+        "typeName": "Ocorrências PDR",
+        "typeTitle": "Ocorrência",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-08-27T18:32:39.666Z",
+        "updated_at": "2020-08-27T18:32:39.666Z"
+      },
+      "customFields": [
+        {
+          "id": "89076",
+          "form_id": "5",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "horariodaocorrencia_xcqhe": "2021-12-21T01:40",
+          "descricao_ufnta": "Teste"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89095",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.146Z",
+      "updated_at": "2021-12-27T22:16:30.146Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89095",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89103",
+      "actionSubject": "Ocorrência PDR",
+      "actionTypeId": "2",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.381Z",
+      "updated_at": "2021-12-27T22:16:30.381Z",
+      "actionType": {
+        "id": "2",
+        "typeName": "Ocorrências PDR",
+        "typeTitle": "Ocorrência",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-08-27T18:32:39.666Z",
+        "updated_at": "2020-08-27T18:32:39.666Z"
+      },
+      "customFields": [
+        {
+          "id": "89103",
+          "form_id": "5",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "horariodaocorrencia_xcqhe": "2021-12-21T01:40",
+          "descricao_ufnta": "Teste"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89238",
+      "actionSubject": "Ocorrência PDR",
+      "actionTypeId": "2",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:17:20.822Z",
+      "updated_at": "2021-12-27T22:17:20.822Z",
+      "actionType": {
+        "id": "2",
+        "typeName": "Ocorrências PDR",
+        "typeTitle": "Ocorrência",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-08-27T18:32:39.666Z",
+        "updated_at": "2020-08-27T18:32:39.666Z"
+      },
+      "customFields": [
+        {
+          "id": "89238",
+          "form_id": "5",
+          "created_at": "2021-12-27T13:17:20.000Z",
+          "updated_at": "2021-12-27T13:17:20.000Z",
+          "horariodaocorrencia_xcqhe": "2021-12-21T01:40",
+          "descricao_ufnta": "Teste"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89067",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.381Z",
+      "updated_at": "2021-12-27T22:16:29.381Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89067",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89069",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.429Z",
+      "updated_at": "2021-12-27T22:16:29.429Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89069",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89109",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.850Z",
+      "updated_at": "2021-12-27T22:16:30.850Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89109",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89068",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.414Z",
+      "updated_at": "2021-12-27T22:16:29.414Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89068",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89070",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.644Z",
+      "updated_at": "2021-12-27T22:16:29.644Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89070",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89074",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.713Z",
+      "updated_at": "2021-12-27T22:16:29.713Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89074",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89082",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.895Z",
+      "updated_at": "2021-12-27T22:16:29.895Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89082",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89106",
+      "actionSubject": "Ocorrência PDR",
+      "actionTypeId": "2",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.532Z",
+      "updated_at": "2021-12-27T22:16:30.532Z",
+      "actionType": {
+        "id": "2",
+        "typeName": "Ocorrências PDR",
+        "typeTitle": "Ocorrência",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-08-27T18:32:39.666Z",
+        "updated_at": "2020-08-27T18:32:39.666Z"
+      },
+      "customFields": [
+        {
+          "id": "89106",
+          "form_id": "5",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "horariodaocorrencia_xcqhe": "2021-12-21T01:40",
+          "descricao_ufnta": "Teste"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89072",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.677Z",
+      "updated_at": "2021-12-27T22:16:29.677Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89072",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89077",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.759Z",
+      "updated_at": "2021-12-27T22:16:29.759Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89077",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89078",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.765Z",
+      "updated_at": "2021-12-27T22:16:29.765Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89078",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89079",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.771Z",
+      "updated_at": "2021-12-27T22:16:29.771Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89079",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89093",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.074Z",
+      "updated_at": "2021-12-27T22:16:30.074Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89093",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89172",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:17:17.148Z",
+      "updated_at": "2021-12-27T22:17:17.148Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89172",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:17:17.000Z",
+          "updated_at": "2021-12-27T13:17:17.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89080",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.777Z",
+      "updated_at": "2021-12-27T22:16:29.777Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89080",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89081",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.818Z",
+      "updated_at": "2021-12-27T22:16:29.818Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89081",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89084",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:29.895Z",
+      "updated_at": "2021-12-27T22:16:29.895Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89084",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:29.000Z",
+          "updated_at": "2021-12-27T13:16:29.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89091",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.042Z",
+      "updated_at": "2021-12-27T22:16:30.042Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89091",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89086",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.026Z",
+      "updated_at": "2021-12-27T22:16:30.026Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89086",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89121",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:34.735Z",
+      "updated_at": "2021-12-27T22:16:34.735Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89121",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:34.000Z",
+          "updated_at": "2021-12-27T13:16:34.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89094",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.146Z",
+      "updated_at": "2021-12-27T22:16:30.146Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89094",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89124",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:37.089Z",
+      "updated_at": "2021-12-27T22:16:37.089Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89124",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:37.000Z",
+          "updated_at": "2021-12-27T13:16:37.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89116",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:31.828Z",
+      "updated_at": "2021-12-27T22:16:31.828Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89116",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:31.000Z",
+          "updated_at": "2021-12-27T13:16:31.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89099",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.228Z",
+      "updated_at": "2021-12-27T22:16:30.228Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89099",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89100",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.249Z",
+      "updated_at": "2021-12-27T22:16:30.249Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89100",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89108",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.850Z",
+      "updated_at": "2021-12-27T22:16:30.850Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89108",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89110",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:30.850Z",
+      "updated_at": "2021-12-27T22:16:30.850Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89110",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:30.000Z",
+          "updated_at": "2021-12-27T13:16:30.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89111",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:31.279Z",
+      "updated_at": "2021-12-27T22:16:31.279Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89111",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:31.000Z",
+          "updated_at": "2021-12-27T13:16:31.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89144",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:40.530Z",
+      "updated_at": "2021-12-27T22:16:40.530Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89144",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:42.000Z",
+          "updated_at": "2021-12-27T13:16:42.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89150",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:50.711Z",
+      "updated_at": "2021-12-27T22:16:50.711Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89150",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:50.000Z",
+          "updated_at": "2021-12-27T13:16:50.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89138",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:40.178Z",
+      "updated_at": "2021-12-27T22:16:40.178Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89138",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:40.000Z",
+          "updated_at": "2021-12-27T13:16:40.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89127",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:38.153Z",
+      "updated_at": "2021-12-27T22:16:38.153Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89127",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:38.000Z",
+          "updated_at": "2021-12-27T13:16:38.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89117",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:31.828Z",
+      "updated_at": "2021-12-27T22:16:31.828Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89117",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:31.000Z",
+          "updated_at": "2021-12-27T13:16:31.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89209",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:17:20.293Z",
+      "updated_at": "2021-12-27T22:17:20.293Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89209",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:17:20.000Z",
+          "updated_at": "2021-12-27T13:17:20.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89120",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:33.866Z",
+      "updated_at": "2021-12-27T22:16:33.866Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89120",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:33.000Z",
+          "updated_at": "2021-12-27T13:16:33.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89125",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:37.099Z",
+      "updated_at": "2021-12-27T22:16:37.099Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89125",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:37.000Z",
+          "updated_at": "2021-12-27T13:16:37.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89126",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:38.152Z",
+      "updated_at": "2021-12-27T22:16:38.152Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89126",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:38.000Z",
+          "updated_at": "2021-12-27T13:16:38.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89129",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:38.153Z",
+      "updated_at": "2021-12-27T22:16:38.153Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89129",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:38.000Z",
+          "updated_at": "2021-12-27T13:16:38.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "89143",
+      "actionSubject": "Carga a Carga",
+      "actionTypeId": "4",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-27T22:16:40.504Z",
+      "updated_at": "2021-12-27T22:16:40.504Z",
+      "actionType": {
+        "id": "4",
+        "typeName": "Carga a Carga PDR",
+        "typeTitle": "Carga a Carga",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:34.009Z",
+        "updated_at": "2020-09-09T18:39:34.009Z"
+      },
+      "customFields": [
+        {
+          "id": "89143",
+          "form_id": "3",
+          "created_at": "2021-12-27T13:16:42.000Z",
+          "updated_at": "2021-12-27T13:16:42.000Z",
+          "tipodedocumento_wfdte": "Ticket",
+          "numerododocumento_sztyz": "10",
+          "cpfcnpjdoprodutor_uaqzp": "10101010101010",
+          "nomedoprodutor_zibid": "Teste",
+          "volumeliquidodedescontoskg_pzwwe": "10",
+          "resultadodotesteintacta_txzcq": "Declarada",
+          "placadocaminhao_hvyjt": "Teste",
+          "horadecarda_qswyx": "2021-12-27T19:16:23.563Z",
+          "triangulado_tzwtw": "Não"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "77045",
+      "actionSubject": "Visita PDR",
+      "actionTypeId": "1",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-21T12:41:54.443Z",
+      "updated_at": "2021-12-27T22:24:14.774Z",
+      "actionType": {
+        "id": "1",
+        "typeName": "Visita PDR",
+        "typeTitle": "Visita",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-08-27T18:32:30.266Z",
+        "updated_at": "2020-08-27T22:01:36.238Z"
+      },
+      "customFields": [
+        {
+          "id": "77045",
+          "form_id": "1",
+          "created_at": "2021-12-24T05:15:56.000Z",
+          "updated_at": "2021-12-24T05:15:56.000Z",
+          "liquidificador_ltedy": "0",
+          "copos_zrhwv": "0",
+          "lamina_exkpf": "0",
+          "transformador_ymfcc": "0",
+          "aneldevedacao_jialr": "0",
+          "basedotriturador_xmteb": "0",
+          "capacidadeestaticadossiloston_fespb": "50",
+          "quantidadedesilos_wbapj": "5",
+          "pdrarmazenacorretamenteasfitasdetesteutilizadas_dgmwa": "Sim",
+          "quantidadedecaixasdefitatesterestantes_ahgnt": "5",
+          "opdrrecebeukittestebayer_ikqrj": "Sim",
+          "totaisdesojakg_wfalb": "0",
+          "totaisdecarga_vjahs": "0",
+          "totaisdesojakg_qjmya": "0",
+          "totaisdecarga_hgeyv": "0",
+          "totaisdesojakg_bxfpr": "0",
+          "totaisdecarga_itapu": "0",
+          "totaisdesojakg_cdben": "0",
+          "totaisdecarga_xzxpw": "0",
+          "totaisdesojakg_ncelz": "0",
+          "totaisrecebidospelopdrduranteavisita_piyvs": "0",
+          "totalsojaparticipante_kough_trian_cif": "0",
+          "totalsojaparticipante_poiuf_trian_cif": "0",
+          "totalsojasemparticipante_oikhd_trian_cif": "0",
+          "totalcargasojasemparticipante_oikbd_trian_cif": "0",
+          "totalsojaconvencional_kmnih_trian_cif": "0",
+          "totalcargasojaconvencional_pykcy_trian_cif": "0",
+          "totalsojaintacta_plkcy_trian_cif": "0",
+          "totalcargasojaintacta_plkcy_trian_cif": "0",
+          "totalsojaintactapositivo_plngr_trian_cif": "0",
+          "totalcargasojaintactapositivo_kijdh_trian_cif": "0"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "77044",
+      "actionSubject": "Inicio PDR",
+      "actionTypeId": "6",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-21T12:41:54.362Z",
+      "updated_at": "2021-12-27T22:24:07.642Z",
+      "actionType": {
+        "id": "6",
+        "typeName": "Monitoramento Lavoura",
+        "typeTitle": "Visita",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-10-14T13:11:06.000Z",
+        "updated_at": "2020-10-14T13:11:06.000Z"
+      },
+      "customFields": [
+        {
+          "id": "77044",
+          "form_id": "1",
+          "created_at": "2021-12-23T04:30:00.000Z",
+          "updated_at": "2021-12-23T04:30:00.000Z",
+          "consultora_fduhe": "Estéfany Consultor KPMG",
+          "iniciodavisita_qmaqz": "2021-12-23T16:30:00.402Z",
+          "avisitafoirealizada_tzwtw": "Sim",
+          "empresavisitada_eovrg": "2F ARMAZENS GERAIS LTDA - NUTRISAL",
+          "cpfcnpj_abbqb": "23424244444444",
+          "ufdocpfcnpj_bzqby": "SP",
+          "endereco_jtniv": "Rua XT",
+          "cidade_mjmze": "Porto Feliz",
+          "distrito_faaht": "ALFENAS-SOJA",
+          "responsavelpelopdr_vblwb": "ddd",
+          "telefone_sdwl": "34433",
+          "modulodavisita_soths": "1",
+          "codigodavisita_qowfp": "KMA177120",
+          "lolizacao_wiowq": "[object Object]",
+          "cpf_ikbre": "66636363633",
+          "emailiniciopdr_qowfp": "sfsfsf"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    },
+    {
+      "id": "77046",
+      "actionSubject": "Finalização PDR",
+      "actionTypeId": "5",
+      "templateId": 72761,
+      "actionStatus": "EXECUTADA",
+      "occurrenceStatus": "EM_ABERTO",
+      "mobile": false,
+      "active": true,
+      "created_at": "2021-12-21T12:41:54.454Z",
+      "updated_at": "2021-12-27T22:24:14.876Z",
+      "actionType": {
+        "id": "5",
+        "typeName": "Finalização PDR",
+        "typeTitle": "Finalização",
+        "active": true,
+        "fieldRow": null,
+        "created_at": "2020-09-09T18:39:52.847Z",
+        "updated_at": "2020-09-09T18:39:52.847Z"
+      },
+      "customFields": [
+        {
+          "id": "77046",
+          "form_id": "4",
+          "created_at": "2021-12-24T05:15:56.000Z",
+          "updated_at": "2021-12-24T05:15:56.000Z",
+          "nome_qcdke": "Est�fany",
+          "cpf_ywfct": "06278059576",
+          "consultora_pewok": "Est�fany Consultor KPMG",
+          "cpf_xdsem": "06278059576",
+          "data_ctzax": "2021-12-24T13:40:53.621Z",
+          "iniciodavisita_yksc": "2021-12-24T13:40:53.621Z",
+          "observacoesgeraisdavisita_cif": "Testandooo"
+        }
+      ],
+      "form": {
+        "id": "1",
+        "referencedTypeId": "1",
+        "active": true,
+        "created_at": "2020-08-27T22:07:16.923Z",
+        "updated_at": "2020-08-27T22:07:16.923Z"
+      }
+    }
+  ],
+  "route": {
+    "date": "2021-12-21T12:00:49.000Z",
+    "status": "URGENT_APPROVAL",
+    "id": 23667,
+    "pdr": 2763,
+    "user": 272,
+    "module": 94,
+    "identifier": "KMA177120",
+    "weekId": 2338,
+    "harvestId": 158,
+    "changedStatusBy": 254,
+    "changeStatusDate": "2021-12-21T12:41:54.298Z",
+    "justifyStatus": "Teste",
+    "active": true,
+    "urgentRoute": true,
+    "created_at": "2021-12-21T12:41:54.298Z",
+    "updated_at": "2021-12-21T12:41:54.298Z",
+    "user_obj": {
+      "id": 272,
+      "name": "Estéfany Consultor KPMG",
+      "lastname": "Fiorese",
+      "email": "estefany.consultor@kpmg.com",
+      "password": "$2a$08$w8b5qXYbQP.3z8nJDwI0U.TGA36AMYRm5fAkqjzczWnh2desPpMS6",
+      "cpf": "66636363633",
+      "rg": "1212312002122",
+      "cellphone": "(14) 1 4141-4141",
+      "type": "CONSULTANT",
+      "enable": true,
+      "verificationCode": null,
+      "approved": true,
+      "pdrs": null,
+      "company": 2,
+      "createdAt": "2021-05-19T17:33:04.861Z",
+      "updatedAt": "2021-05-19T17:33:04.861Z",
+      "company_obj": {
+        "id": 2,
+        "socialReason": "222222222",
+        "cpfCpnj": "333333333",
+        "name": "KPMG",
+        "createdAt": "2020-02-21T13:27:14.115Z",
+        "updatedAt": "2020-02-21T13:27:14.115Z"
+      }
+    },
+    "pdr_obj": {
+      "id": 2763,
+      "companyName": "ENGELHART CTP BRASIL SA",
+      "address": "AL DO CAFE 282 282",
+      "latitude": null,
+      "longitude": null,
+      "box": null,
+      "documentNumber": "14796754000619",
+      "clientErp": "14796754000619",
+      "contactMail": null,
+      "contactName": null,
+      "cellPhone": null,
+      "enable": true,
+      "county": 13546,
+      "isMainOffice": false,
+      "mainOffice": 597,
+      "districtId": 6,
+      "created_at": "2020-08-31T19:08:01.570Z",
+      "updated_at": "2020-09-17T16:51:20.940Z",
+      "county_obj": {
+        "id": "13546",
+        "cityCode": 3170701,
+        "cityName": "Varginha",
+        "latitude": "-21.55560000000",
+        "longitude": "-45.43640000000",
+        "capital": false,
+        "stateCode": 31,
+        "stateAbbreviation": "MG",
+        "stateName": "Minas Gerais",
+        "region": "Sudeste",
+        "countryName": "Brasil",
+        "countryAbbreviation": "BRA",
+        "rstatus": true,
+        "district": 6,
+        "created_at": "2019-08-26T13:47:59.818Z",
+        "updated_at": "2020-06-30T16:47:49.592Z"
+      },
+      "district_obj": {
+        "id": 6,
+        "regional": 3,
+        "name": "ALFENAS-SOJA",
+        "createdAt": "2019-12-24T12:11:10.558Z",
+        "updatedAt": "2019-12-24T12:11:10.558Z"
+      }
+    },
+    "module_obj": {
+      "id": 94,
+      "description": "1H",
+      "quantity": 1,
+      "special": false,
+      "enable": true,
+      "created_at": "2020-10-14T16:07:59.085Z",
+      "updated_at": "2020-10-14T16:07:59.085Z"
+    },
+    "initialDate": "2021-12-28T12:30:36.505Z",
+    "finalDate": null
+  },
+  "orderActions": [
+    { "actionType": 3, "order": 1, "type": "simple", "location": "top" },
+    { "actionType": 1, "order": 3, "type": "simple", "location": "top" },
+    { "actionType": 4, "order": 2, "type": "grouped", "location": "top" },
+    { "actionType": 5, "order": 4, "type": "simple", "location": "top" },
+    { "actionType": 2, "order": 1, "type": "list", "location": "bottom" }
+  ]
+}

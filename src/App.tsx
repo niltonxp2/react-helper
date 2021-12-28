@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { FullWidthSection, Grid, Row, MaxWidthSection } from './components/Layout';
+import { removeNullValues } from './shared/functions';
+import payload from './__mocks__/payload.json';
 
 const Header = styled(FullWidthSection)`
   padding: 4rem 0;
@@ -17,6 +19,8 @@ const Content = styled(MaxWidthSection)`
 `;
 
 function App() {
+  removeNullValues(payload)
+  
   return (
     <Grid>
       <Header as='header'>
