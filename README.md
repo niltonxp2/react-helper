@@ -41,3 +41,15 @@ src
     |_format-date.ts
     |_format-hour.ts
 |_index.ts ## entry point file that renders the React component tree
+
+
+
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+## Installing Commitizen
+- yarn add commitizen -D
+- yarn commitizen init cz-conventional-changelog --save-dev --save-exact
+- husky add .husky/prepare-commit-msg "exec < /dev/tty && git cz --hook || true"
+ ...
+  "scripts": {
+    "cm": "cz"
+  }
