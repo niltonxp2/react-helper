@@ -19,7 +19,7 @@ const Content = styled(MaxWidthSection)`
 `;
 
 function App() {
-  removeNullValues({ payload });
+  removeNullValues(payload);
 
   return (
     <Grid>
