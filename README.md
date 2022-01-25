@@ -45,7 +45,7 @@ src
 
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-## Installing Commitizen and Commitlint
+## Installing Linters
 - yarn add commitizen @commitlint/config-conventional @commitlint/cli lint-staged husky -D
 - yarn add --dev --exact prettier
 - yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
