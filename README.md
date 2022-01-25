@@ -45,11 +45,16 @@ src
 
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-## Installing Commitizen
-- yarn add commitizen -D
+## Installing Commitizen and Commitlint
+- yarn add commitizen @commitlint/config-conventional @commitlint/cli lint-staged husky -D
+- yarn add --dev --exact prettier
 - yarn commitizen init cz-conventional-changelog --save-dev --save-exact
-- husky add .husky/prepare-commit-msg "exec < /dev/tty && git cz --hook || true"
+- yarn husky install
+- yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
+- yarn husky add .husky/pre-commit 'yarn lint-staged'
+- .czrc .commitlintrc .lint
  ...
   "scripts": {
+    "postinstall": "husky install",
     "cm": "cz"
   }
