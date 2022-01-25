@@ -1,0 +1,10 @@
+{
+  "src/**/*": [
+    "prettier --write --ignore-unknown",
+    "git add ."
+  ],
+  "src/**/*.{js,jsx,ts,tsx}": [
+    "yarn lint",
+    "git add ."
+  ]
+}
