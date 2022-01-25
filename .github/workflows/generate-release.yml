@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: '12.9.1'
+          node-version: '^14.15.0'
 
       - name: installing dependencies
         run: yarn install
