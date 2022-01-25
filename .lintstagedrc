@@ -4,7 +4,7 @@
     "git add ."
   ],
   "src/**/*.{js,jsx,ts,tsx}": [
-    "yarn eslint --fix",
+    "yarn lint",
     "git add ."
   ]
 }

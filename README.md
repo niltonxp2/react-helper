@@ -48,11 +48,12 @@ src
 ## Installing Commitizen and Commitlint
 - yarn add commitizen @commitlint/config-conventional @commitlint/cli lint-staged husky -D
 - yarn add --dev --exact prettier
+- yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 - yarn commitizen init cz-conventional-changelog --save-dev --save-exact
 - yarn husky install
 - yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
 - yarn husky add .husky/pre-commit 'yarn lint-staged'
-- .czrc .commitlintrc .lint
+- 
  ...
   "scripts": {
     "postinstall": "husky install",

@@ -13,7 +13,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cm": "cz",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "lint": "eslint . --ext .ts --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -44,8 +45,11 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/styled-components": "^5.1.15",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.7.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.1",
     "prettier": "2.5.1",
