@@ -40,4 +40,14 @@ function useCount() {
   return context;
 }
 
+// async function updateCountAsync(dispatch, count) {
+//   dispatch({type: 'start update', updates})
+//   try {
+//     const updatedUser = await userClient.updateUser(user, updates)
+//     dispatch({type: 'finish update', updatedUser})
+//   } catch (error) {
+//     dispatch({type: 'fail update', error})
+//   }
+// }
+
 export { CountProvider, useCount };
