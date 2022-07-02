@@ -30,5 +30,8 @@ functions grouped by domain |\_date |\_format-date.ts |\_format-hour.ts
 - yarn commitizen init cz-conventional-changelog --save-dev --save-exact
 - yarn husky install
 - yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
-- yarn husky add .husky/pre-commit 'yarn lint-staged'
-- ... "scripts": { "postinstall": "husky install", "cm": "cz" }
+- yarn husky add .husky/pre-commit 'yarn lint-staged' <<<<<<< HEAD
+- # ... "scripts": { "postinstall": "husky install", "cm": "cz" }
+- .czrc .commitlintrc .lint ... "scripts": { "postinstall": "husky install",
+  "cm": "cz" }
+  > > > > > > > 50909ce (chore: adding linters)
