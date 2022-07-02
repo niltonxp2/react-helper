@@ -1,3 +1,5 @@
+/* eslint-disable  @typescript-eslint/no-explicit-any */
+
 type GenericObject = { [key: string]: any };
 
 export const removeNullValues = (payload: GenericObject) => {

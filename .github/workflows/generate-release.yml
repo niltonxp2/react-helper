@@ -1,12 +1,11 @@
 name: Generate Release
 on:
   push:
-   branches:
-   - master
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
