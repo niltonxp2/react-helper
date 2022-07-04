@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import {
   FullWidthSection,
@@ -5,6 +6,7 @@ import {
   Row,
   MaxWidthSection,
 } from '../components/Layout';
+import paths from '../routes/paths';
 import { removeNullValues } from '../shared/functions';
 import payload from '../__mocks__/payload.json';
 
@@ -30,7 +32,7 @@ function App() {
     <Grid>
       <Header as="header">
         <Nav as="nav" xxls={2} xls={2} lgs={2} mds={2} sms={2} xss={2}>
-          <a href="/#">link 1111111111111111111111</a>
+          <Link to={paths.reactHooks}>Epic React</Link>
           <a href="/#">link 2111111111111111</a>
           <a href="/#">link 111111111111111113</a>
           <a href="/#">link 3333333333333333333</a>

@@ -9,6 +9,7 @@ const UseCallbackAndUseMemo = lazy(
 const Memo = lazy(() => import('../pages/Performance/Memo'));
 const App = lazy(() => import('../pages/App'));
 const CountContextApi = lazy(() => import('../pages/CountContextApi'));
+const ReactHooksRouts = lazy(() => import('../pages/EpicReact/routes'));
 
 export interface IRoute {
   key: string;
@@ -38,8 +39,13 @@ export const routes: IRoute[] = [
     element: Memo,
   },
   {
-    key: 'memo',
+    key: 'context',
     path: paths.context,
     element: CountContextApi,
+  },
+  {
+    key: 'reactHooks',
+    path: `${paths.reactHooks}/*`,
+    element: ReactHooksRouts,
   },
 ];

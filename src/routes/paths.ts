@@ -6,4 +6,5 @@ export default {
   useCallbackUseMemo: rootPath + 'perf/useCallback-useMemo',
   memo: rootPath + 'perf/memo',
   context: rootPath + 'contextApi',
+  reactHooks: rootPath + 'epic-react-hooks',
 };
