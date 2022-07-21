@@ -7,6 +7,7 @@ export const WhatIsJsx = () => {
         display: 'flex',
         marginTop: 100,
       }}
+      target="_blank"
       href="https://kentcdodds.com/blog/what-is-jsx"
     >
       Link to article

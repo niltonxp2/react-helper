@@ -9,7 +9,10 @@ const Articles = () => {
           <Link to="reacts-key-prop">Understanding React Key Prop</Link>
         </li>
         <li>
-          <Link to="what-is-jsx">What is JSX</Link>
+          <Link to="what-is-jsx">What is JSX (*)</Link>
+        </li>
+        <li>
+          <Link to="colocation">Colocation</Link>
         </li>
       </ul>
       <article>
