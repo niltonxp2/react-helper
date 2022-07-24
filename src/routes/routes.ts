@@ -2,14 +2,9 @@ import { lazy, FC } from 'react';
 
 import paths from './paths';
 
-const Performance = lazy(() => import('../pages/Performance'));
-const UseCallbackAndUseMemo = lazy(
-  () => import('../pages/Performance/UseCallback-UseMemo'),
-);
-const Memo = lazy(() => import('../pages/Performance/Memo'));
 const App = lazy(() => import('../pages/App'));
-const CountContextApi = lazy(() => import('../pages/CountContextApi'));
-const ReactHooksRouts = lazy(() => import('../pages/EpicReact/routes'));
+const ReactHooksRoutes = lazy(() => import('../pages/EpicReact/routes'));
+const ReactDocsRoutes = lazy(() => import('../pages/ReactDocs/routes'));
 
 export interface IRoute {
   key: string;
@@ -24,28 +19,13 @@ export const routes: IRoute[] = [
     element: App,
   },
   {
-    key: 'perf',
-    path: paths.performance,
-    element: Performance,
-  },
-  {
-    key: 'useCallback-useMemo',
-    path: paths.useCallbackUseMemo,
-    element: UseCallbackAndUseMemo,
-  },
-  {
-    key: 'memo',
-    path: paths.memo,
-    element: Memo,
-  },
-  {
-    key: 'context',
-    path: paths.context,
-    element: CountContextApi,
-  },
-  {
     key: 'reactHooks',
     path: `${paths.reactHooks}/*`,
-    element: ReactHooksRouts,
+    element: ReactHooksRoutes,
+  },
+  {
+    key: 'reactDocs',
+    path: `${paths.reactDocs}/*`,
+    element: ReactDocsRoutes,
   },
 ];

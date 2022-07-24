@@ -4,7 +4,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import paths from '../../routes/paths';
 
 interface IFoo {
   bar: () => void;
@@ -20,7 +19,7 @@ function Foo({ bar, baz }: IFoo) {
   return <div>foobar</div>;
 }
 
-export default function Blub() {
+export function UseCallbackUseMemo() {
   const bar = React.useCallback(() => {
     // intentional
   }, []);
@@ -32,7 +31,7 @@ export default function Blub() {
       <button onClick={() => setCounter(c => c + 1)}>+</button>
       <p>{counter}</p>
       <Foo bar={bar} baz={baz} />
-      <Link to={paths.performance}>Back</Link>
+      <Link to="performance">Back</Link>
     </>
   );
 }

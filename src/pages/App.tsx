@@ -33,11 +33,7 @@ function App() {
       <Header as="header">
         <Nav as="nav" xxls={2} xls={2} lgs={2} mds={2} sms={2} xss={2}>
           <Link to={paths.reactHooks}>Epic React</Link>
-          <a href="/#">link 2111111111111111</a>
-          <a href="/#">link 111111111111111113</a>
-          <a href="/#">link 3333333333333333333</a>
-          <a href="/#">link sssssssssssssss3</a>
-          <a href="/#">link 3ssssssssssssss</a>
+          <Link to={paths.reactDocs}>React Docs</Link>
         </Nav>
       </Header>
 

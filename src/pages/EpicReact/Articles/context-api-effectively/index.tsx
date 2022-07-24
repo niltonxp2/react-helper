@@ -14,7 +14,7 @@ function Counter() {
   );
 }
 
-export default function App() {
+export function ContextApiEffectively() {
   return (
     <CountProvider>
       <CountDisplay />

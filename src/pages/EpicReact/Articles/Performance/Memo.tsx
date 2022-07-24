@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import paths from '../../routes/paths';
 
 interface ICountButton {
   onClick: () => void;
@@ -20,7 +19,7 @@ const CountButton = React.memo(function CountButton({
   return <button onClick={onClick}>{count}</button>;
 });
 
-export default function DualCounter() {
+export function MemoDualCounter() {
   const [count1, setCount1] = React.useState(0);
   const increment1 = React.useCallback(() => setCount1(c => c + 1), []);
 
@@ -31,7 +30,7 @@ export default function DualCounter() {
     <>
       <CountButton count={count1} onClick={increment1} id={1} />
       <CountButton count={count2} onClick={increment2} id={2} />
-      <Link to={paths.performance}>Back</Link>
+      <Link to="performance">Back</Link>
     </>
   );
 }

@@ -14,8 +14,16 @@ const Articles = () => {
         <li>
           <Link to="colocation">Colocation</Link>
         </li>
+        <li>
+          <Link to="context-api-counter">
+            How to use React Context effectively
+          </Link>
+        </li>
+        <li>
+          <Link to="performance">Memo, useCallback and useMemo</Link>
+        </li>
       </ul>
-      <article>
+      <article style={{ margin: 50 }}>
         <Outlet />
       </article>
     </>
