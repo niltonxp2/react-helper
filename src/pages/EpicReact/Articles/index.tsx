@@ -22,6 +22,9 @@ const Articles = () => {
         <li>
           <Link to="performance">Memo, useCallback and useMemo</Link>
         </li>
+        <li>
+          <Link to="authentication">Authentication in React Applications</Link>
+        </li>
       </ul>
       <article style={{ margin: 50 }}>
         <Outlet />

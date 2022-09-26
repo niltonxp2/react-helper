@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { EpicReact } from '.';
 import { Articles } from './Articles';
+import { Authentication } from './Articles/authentication';
 import { Colocation } from './Articles/colocation';
 import { ContextApiEffectively } from './Articles/context-api-effectively';
 import { Performance } from './Articles/Performance';
@@ -33,6 +34,7 @@ const ReactHooksRoutes = () => {
               element={<UseCallbackUseMemo />}
             />
           </Route>
+          <Route path="authentication" element={<Authentication />} />
         </Route>
       </Route>
     </Routes>
